@@ -1,0 +1,43 @@
+.header {
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-items {
+    padding: 0px 10px;
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+.search {
+    padding : 10px;
+
+}
+
+
+.body {
+
+}
+
+.restro-container {
+
+}
+
+.restro-card {
+    width: 200px;
+    height: 300px;
+    border : 1px solid black;
+}
