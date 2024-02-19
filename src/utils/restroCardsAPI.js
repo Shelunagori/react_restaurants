@@ -1,0 +1,220 @@
+export default restObj = [
+  {
+    info: {
+      id: "498382",
+      name: "Burger King",
+      cloudinaryImageId: "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+      locality: "M2K Mall",
+      areaName: "Rohini",
+      costForTwo: "₹350 for two",
+      cuisines: ["Burgers", "American"],
+      avgRating: 3.4,
+      parentId: "166",
+      avgRatingString: "4.4",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 22,
+        lastMileTravel: 2,
+        serviceability: "SERVICEABLE",
+        slaString: "22 mins",
+        lastMileTravelString: "2.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-12 03:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "60% OFF",
+        subHeader: "UPTO ₹120",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+  },
+  {
+    info: {
+      id: "444780",
+      name: "Theobroma",
+      cloudinaryImageId: "b033728dcb0101ceb19bff0e1e1f6474",
+      locality: "Sector 3",
+      areaName: "Rohini",
+      costForTwo: "₹400 for two",
+      cuisines: ["Bakery", "Desserts"],
+      avgRating: 4.5,
+      parentId: "1040",
+      avgRatingString: "4.5",
+      totalRatingsString: "1K+",
+      sla: {
+        deliveryTime: 19,
+        lastMileTravel: 2,
+        serviceability: "SERVICEABLE",
+        slaString: "19 mins",
+        lastMileTravelString: "2.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-11 23:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "newg.png",
+            description: "Gourmet",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Gourmet",
+                  imageId: "newg.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹849",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+    },
+  },
+  {
+    info: {
+      id: "772202",
+      name: "Starbucks Coffee",
+      cloudinaryImageId: "c4d3a93a80333184ee41048b4fda3a34",
+      locality: "Reserve Bank Enclave",
+      areaName: "Paschim Vihar",
+      costForTwo: "₹400 for two",
+      cuisines: [
+        "Beverages",
+        "Cafe",
+        "Snacks",
+        "Desserts",
+        "Bakery",
+        "Ice Cream",
+      ],
+      avgRating: 4.5,
+      parentId: "195515",
+      avgRatingString: "4.5",
+      totalRatingsString: "100+",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 4.8,
+        serviceability: "SERVICEABLE",
+        slaString: "34 mins",
+        lastMileTravelString: "4.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2024-02-11 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹499",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      isNewlyOnboarded: true,
+      restaurantOfferPresentationInfo: {},
+    },
+  },
+  {
+    info: {
+      id: "253731",
+      name: "McDonald's",
+      cloudinaryImageId: "ecd32b841549ce6bfd993260a2086c1f",
+      costForTwo: "₹400 for two",
+      cuisines: ["American"],
+      avgRating: 2.4,
+      avgRatingString: "4.4",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 4.8,
+        serviceability: "SERVICEABLE",
+        slaString: "34 mins",
+        lastMileTravelString: "4.8 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+    },
+  },
+];
