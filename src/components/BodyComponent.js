@@ -17,10 +17,10 @@ const Body = () => {
     );
     const json = await data.json();
     setRestroCardList(
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setFilterRestroList(
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );    
   };
 
@@ -57,7 +57,7 @@ const Body = () => {
             const restroLists = getRestroCardList.filter((res) => {
               return res.info.avgRating > 4;
             });
-            setRestroCardList(restroLists);
+            setFilterRestroList(restroLists);
           }}
         >
           Top Rated Restaurants
